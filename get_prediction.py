@@ -109,16 +109,18 @@ try:
 
     tables = pd.read_html(io.StringIO(html))
 
-    electricity_df = tables[0]
+    yesterday_power_df = tables[0]
 
-    electricity_df.columns = electricity_df.columns.droplevel(0)
-    electricity_df = electricity_df[
+    yesterday_power_df.columns = yesterday_power_df.columns.droplevel(0)
+    yesterday_power_df = yesterday_power_df[
         ["Date", "Generation(MW)", "Demand(MW)", "Loadshed"]
     ].copy()
 
-    electricity_df = electricity_df[electricity_df["Date"] == yesterday_date]
+    yesterday_power_df = yesterday_power_df[
+        yesterday_power_df["Date"] == yesterday_date
+    ]
 
-    electricity_df.rename(
+    yesterday_power_df.rename(
         columns={
             "Generation(MW)": "Generation",
             "Demand(MW)": "Demand",
@@ -127,8 +129,8 @@ try:
     )
 
     # Convert units from MW to GW
-    electricity_df[["Generation", "Demand", "Loadshed"]] = (
-        electricity_df[["Generation", "Demand", "Loadshed"]] / 1000
+    yesterday_power_df[["Generation", "Demand", "Loadshed"]] = (
+        yesterday_power_df[["Generation", "Demand", "Loadshed"]] / 1000
     )
 except requests.exceptions.RequestException as e:
     print(e)
@@ -145,8 +147,8 @@ generation_model = lgb.Booster(model_file="generation_lgbm_model.txt")
 loadshed_model = lgb.Booster(model_file="loadshed_lgbm_model.txt")
 
 # Set initial values
-generation_previous = electricity_df["Generation"].sum()
-loadshed_previous = electricity_df["Loadshed"].sum()
+generation_previous = yesterday_power_df["Generation"].sum()
+loadshed_previous = yesterday_power_df["Loadshed"].sum()
 
 # Get Forecasts
 forecasts = []
@@ -165,9 +167,47 @@ for idx in range(len(input_df)):
 
     daily_forecast = {
         "date": row["Date"].astype(str).values[0],
-        "generation_prediction": generation_pred,
-        "loadshed_prediction": loadshed_pred,
+        "prediction": {
+            "generation": generation_pred,
+            "loadshed": loadshed_pred,
+        },
     }
     forecasts.append(daily_forecast)
 
 print(f"7 Days Forecast: {forecasts}")
+
+
+# Add to predictions.json
+
+from pathlib import Path
+import json
+
+pred_file = Path("predictions.json")
+
+if pred_file.exists():
+    with open(pred_file, "r") as f:
+        preds = json.load(f)
+else:
+    preds = {"forecast": [], "history": []}
+
+history = preds["history"]
+previous_forecast = preds["forecast"]
+
+yesterday = previous_forecast[0]
+yesterday["label"] = {
+    "generation": yesterday_power_df["Generation"].sum(),
+    "loadshed": yesterday_power_df["Loadshed"].sum(),
+}
+history.append(yesterday)
+
+# Update predictions
+preds["history"] = history
+preds["forecast"] = forecasts
+
+try:
+    with open(pred_file, "w") as f:
+        json.dump(preds, f, indent=2)
+
+    print("Successfully saved predictions")
+except Exception as e:
+    print(f"Error occurred: {e}")

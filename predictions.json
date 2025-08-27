@@ -1,0 +1,66 @@
+{
+	"forecast": [
+		{
+			"date": "2025-08-27",
+			"prediction": {
+				"generation": 195.96848965912665,
+				"loadshed": 4.01645533683271
+			}
+		},
+		{
+			"date": "2025-08-28",
+			"prediction": {
+				"generation": 195.79957527592236,
+				"loadshed": 0.7048555886659232
+			}
+		},
+		{
+			"date": "2025-08-29",
+			"prediction": {
+				"generation": 183.66686890613562,
+				"loadshed": 0.9318143607589037
+			}
+		},
+		{
+			"date": "2025-08-30",
+			"prediction": {
+				"generation": 195.34862498312188,
+				"loadshed": 0.8855544071569458
+			}
+		},
+		{
+			"date": "2025-08-31",
+			"prediction": {
+				"generation": 193.7635746877905,
+				"loadshed": 4.0275706301534395
+			}
+		},
+		{
+			"date": "2025-09-01",
+			"prediction": {
+				"generation": 195.98696048923554,
+				"loadshed": 4.0246477948053965
+			}
+		},
+		{
+			"date": "2025-09-02",
+			"prediction": {
+				"generation": 181.89593995021795,
+				"loadshed": 0.5152292646834686
+			}
+		}
+	],
+	"history": [
+		{
+			"date": "2025-08-26",
+			"prediction": {
+				"generation": 195.96848965912665,
+				"loadshed": 4.01645533683271
+			},
+			"label": {
+				"generation": 361.91,
+				"loadshed": 0.478
+			}
+		}
+	]
+}
