@@ -143,8 +143,8 @@ input_df = all_weather_df.copy()
 # Load Model
 import lightgbm as lgb
 
-generation_model = lgb.Booster(model_file="generation_lgbm_model.txt")
-loadshed_model = lgb.Booster(model_file="loadshed_lgbm_model.txt")
+generation_model = lgb.Booster(model_file="models/generation_lgbm_model.txt")
+loadshed_model = lgb.Booster(model_file="models/loadshed_lgbm_model.txt")
 
 # Set initial values
 generation_previous = yesterday_power_df["Generation"].sum()
@@ -193,15 +193,15 @@ else:
 history = preds["history"]
 previous_forecast = preds["forecast"]
 
-yesterday = previous_forecast[0]
-yesterday["label"] = {
-    "generation": yesterday_power_df["Generation"].sum(),
-    "loadshed": yesterday_power_df["Loadshed"].sum(),
-}
-history.append(yesterday)
+if previous_forecast:
+    yesterday = previous_forecast[0]
+    yesterday["label"] = {
+        "generation": yesterday_power_df["Generation"].sum(),
+        "loadshed": yesterday_power_df["Loadshed"].sum(),
+    }
+    history.append(yesterday)
+    preds["history"] = history
 
-# Update predictions
-preds["history"] = history
 preds["forecast"] = forecasts
 
 try:
