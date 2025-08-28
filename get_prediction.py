@@ -11,7 +11,7 @@ pat_coords = (22.36833, 90.3458)
 
 
 def get_city_weather(coords):
-    weather_api_url = f"https://api.open-meteo.com/v1/forecast?latitude={dhk_coords[0]}&longitude={dhk_coords[1]}&daily=relative_humidity_2m_mean,temperature_2m_max,temperature_2m_min,temperature_2m_mean,rain_sum,sunshine_duration&forecast_days=7"
+    weather_api_url = f"https://api.open-meteo.com/v1/forecast?latitude={coords[0]}&longitude={coords[1]}&daily=relative_humidity_2m_mean,temperature_2m_max,temperature_2m_min,temperature_2m_mean,rain_sum,sunshine_duration&forecast_days=7"
     response = requests.get(weather_api_url)
 
     try:

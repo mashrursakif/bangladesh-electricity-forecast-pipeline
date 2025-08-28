@@ -1,66 +1,210 @@
 {
-	"forecast": [
-		{
-			"date": "2025-08-27",
-			"prediction": {
-				"generation": 195.96848965912665,
-				"loadshed": 4.01645533683271
-			}
-		},
-		{
-			"date": "2025-08-28",
-			"prediction": {
-				"generation": 195.79957527592236,
-				"loadshed": 0.7048555886659232
-			}
-		},
-		{
-			"date": "2025-08-29",
-			"prediction": {
-				"generation": 183.66686890613562,
-				"loadshed": 0.9318143607589037
-			}
-		},
-		{
-			"date": "2025-08-30",
-			"prediction": {
-				"generation": 195.34862498312188,
-				"loadshed": 0.8855544071569458
-			}
-		},
-		{
-			"date": "2025-08-31",
-			"prediction": {
-				"generation": 193.7635746877905,
-				"loadshed": 4.0275706301534395
-			}
-		},
-		{
-			"date": "2025-09-01",
-			"prediction": {
-				"generation": 195.98696048923554,
-				"loadshed": 4.0246477948053965
-			}
-		},
-		{
-			"date": "2025-09-02",
-			"prediction": {
-				"generation": 181.89593995021795,
-				"loadshed": 0.5152292646834686
-			}
-		}
-	],
-	"history": [
-		{
-			"date": "2025-08-26",
-			"prediction": {
-				"generation": 195.96848965912665,
-				"loadshed": 4.01645533683271
-			},
-			"label": {
-				"generation": 361.91,
-				"loadshed": 0.478
-			}
-		}
-	]
+  "forecast": [
+    {
+      "date": "2025-08-27",
+      "prediction": {
+        "generation": 195.68399326987063,
+        "loadshed": 4.000213846128425
+      }
+    },
+    {
+      "date": "2025-08-28",
+      "prediction": {
+        "generation": 191.91601538538936,
+        "loadshed": 0.8032772863988772
+      }
+    },
+    {
+      "date": "2025-08-29",
+      "prediction": {
+        "generation": 182.80471976289496,
+        "loadshed": 0.9365440968973084
+      }
+    },
+    {
+      "date": "2025-08-30",
+      "prediction": {
+        "generation": 192.7640805603578,
+        "loadshed": 0.883307169916863
+      }
+    },
+    {
+      "date": "2025-08-31",
+      "prediction": {
+        "generation": 195.8815695056618,
+        "loadshed": 4.515644728774346
+      }
+    },
+    {
+      "date": "2025-09-01",
+      "prediction": {
+        "generation": 194.48187395014,
+        "loadshed": 4.01841767093683
+      }
+    },
+    {
+      "date": "2025-09-02",
+      "prediction": {
+        "generation": 181.0434519589341,
+        "loadshed": 0.3503849328442639
+      }
+    }
+  ],
+  "history": [
+    {
+      "date": "2025-07-28",
+      "generation_prediction": 182.1007329478761,
+      "loadshed_prediction": 1.2228746766375929
+    },
+    {
+      "date": "2025-07-29",
+      "generation_prediction": 181.56922596046317,
+      "loadshed_prediction": 1.2121598835068088
+    },
+    {
+      "date": "2025-07-30",
+      "generation_prediction": 181.33953357660496,
+      "loadshed_prediction": 1.1985977559148289
+    },
+    {
+      "date": "2025-07-31",
+      "generation_prediction": 182.03576950013633,
+      "loadshed_prediction": 0.7035800571368294
+    },
+    {
+      "date": "2025-08-01",
+      "generation_prediction": 181.94742097634003,
+      "loadshed_prediction": 1.2822423997400394
+    },
+    {
+      "date": "2025-08-02",
+      "generation_prediction": 183.05844272529734,
+      "loadshed_prediction": 4.9359197879883645
+    },
+    {
+      "date": "2025-08-03",
+      "generation_prediction": 185.958510173318,
+      "loadshed_prediction": 4.930823123351596
+    },
+    {
+      "date": "2025-08-04",
+      "generation_prediction": 185.58985460544213,
+      "loadshed_prediction": 1.1503643340536647
+    },
+    {
+      "date": "2025-08-05",
+      "generation_prediction": 183.5642162091283,
+      "loadshed_prediction": 4.900895674819896
+    },
+    {
+      "date": "2025-08-06",
+      "generation_prediction": 182.8487874310322,
+      "loadshed_prediction": 1.2528246075346974
+    },
+    {
+      "date": "2025-08-07",
+      "generation_prediction": 183.6731593282672,
+      "loadshed_prediction": 1.2524870411587552
+    },
+    {
+      "date": "2025-08-08",
+      "generation_prediction": 182.81256359257068,
+      "loadshed_prediction": 0.7053478103017001
+    },
+    {
+      "date": "2025-08-09",
+      "generation_prediction": 190.55527173947158,
+      "loadshed_prediction": 1.8891204986950092
+    },
+    {
+      "date": "2025-08-10",
+      "generation_prediction": 197.528232595956,
+      "loadshed_prediction": 5.581589317515161
+    },
+    {
+      "date": "2025-08-11",
+      "generation_prediction": 199.4818722245204,
+      "loadshed_prediction": 5.599620389545318
+    },
+    {
+      "date": "2025-08-12",
+      "generation_prediction": 187.46747587215884,
+      "loadshed_prediction": 4.934669469426
+    },
+    {
+      "date": "2025-08-13",
+      "generation_prediction": 182.77281129756534,
+      "loadshed_prediction": 1.2622758773521108
+    },
+    {
+      "date": "2025-08-14",
+      "generation_prediction": 183.31073486428798,
+      "loadshed_prediction": 1.247039858618026
+    },
+    {
+      "date": "2025-08-15",
+      "generation_prediction": 197.58027767690263,
+      "loadshed_prediction": 5.57296868126824
+    },
+    {
+      "date": "2025-08-16",
+      "generation_prediction": 198.0913647366773,
+      "loadshed_prediction": 5.573456529292152
+    },
+    {
+      "date": "2025-08-17",
+      "generation_prediction": 186.955547950898,
+      "loadshed_prediction": 1.094639792865225
+    },
+    {
+      "date": "2025-08-18",
+      "generation_prediction": 197.49005520471553,
+      "loadshed_prediction": 5.5694433990816306
+    },
+    {
+      "date": "2025-08-19",
+      "generation_prediction": 187.6000497204218,
+      "loadshed_prediction": 1.2007457448370427
+    },
+    {
+      "date": "2025-08-20",
+      "generation_prediction": 186.50362897080458,
+      "loadshed_prediction": 1.239439891651217
+    },
+    {
+      "date": "2025-08-21",
+      "generation_prediction": 182.250810000185,
+      "loadshed_prediction": 0.6759300180963583
+    },
+    {
+      "date": "2025-08-22",
+      "generation_prediction": 184.60706148696036,
+      "loadshed_prediction": 0.7053478103017001
+    },
+    {
+      "date": "2025-08-23",
+      "generation_prediction": 182.7539765218551,
+      "loadshed_prediction": 0.6759300180963583
+    },
+    {
+      "date": "2025-08-24",
+      "generation_prediction": 184.69515302665107,
+      "loadshed_prediction": 0.6927753337661448
+    },
+    {
+      "date": "2025-08-25",
+      "generation_prediction": 197.76869995049506,
+      "loadshed_prediction": 5.580721710801503
+    },
+    {
+      "date": "2025-08-26",
+      "generation_prediction": 197.88219680387235,
+      "loadshed_prediction": 5.569554070303089
+    },
+    {
+      "date": "2025-08-27",
+      "generation_prediction": 197.58027767690263,
+      "loadshed_prediction": 5.581589317515161
+    }
+  ]
 }
