@@ -52,17 +52,14 @@
   ],
   "history": [
     {
-      "date": "2025-07-29",
-      "prediction": {
-        "generation": 181.56922596046317,
-        "loadshed": 1.2121598835068088
-      }
-    },
-    {
       "date": "2025-07-30",
       "prediction": {
         "generation": 181.33953357660496,
         "loadshed": 1.1985977559148289
+      },
+      "label": {
+        "generation": 343.849,
+        "loadshed": 0.765
       }
     },
     {
@@ -70,6 +67,10 @@
       "prediction": {
         "generation": 182.03576950013633,
         "loadshed": 0.7035800571368294
+      },
+      "label": {
+        "generation": 333.455,
+        "loadshed": 0.46599999999999997
       }
     },
     {
@@ -77,6 +78,10 @@
       "prediction": {
         "generation": 181.94742097634003,
         "loadshed": 1.2822423997400394
+      },
+      "label": {
+        "generation": 306.883,
+        "loadshed": 0.054000000000000006
       }
     },
     {
@@ -84,6 +89,10 @@
       "prediction": {
         "generation": 183.05844272529734,
         "loadshed": 4.9359197879883645
+      },
+      "label": {
+        "generation": 333.336,
+        "loadshed": 0.08399999999999999
       }
     },
     {
@@ -91,6 +100,10 @@
       "prediction": {
         "generation": 185.958510173318,
         "loadshed": 4.930823123351596
+      },
+      "label": {
+        "generation": 342.033,
+        "loadshed": 0.129
       }
     },
     {
@@ -98,6 +111,10 @@
       "prediction": {
         "generation": 185.58985460544213,
         "loadshed": 1.1503643340536647
+      },
+      "label": {
+        "generation": 333.394,
+        "loadshed": 0.0
       }
     },
     {
@@ -105,6 +122,10 @@
       "prediction": {
         "generation": 183.5642162091283,
         "loadshed": 4.900895674819896
+      },
+      "label": {
+        "generation": 294.485,
+        "loadshed": 0.68
       }
     },
     {
@@ -112,6 +133,10 @@
       "prediction": {
         "generation": 182.8487874310322,
         "loadshed": 1.2528246075346974
+      },
+      "label": {
+        "generation": 326.322,
+        "loadshed": 0.9299999999999999
       }
     },
     {
@@ -119,6 +144,10 @@
       "prediction": {
         "generation": 183.6731593282672,
         "loadshed": 1.2524870411587552
+      },
+      "label": {
+        "generation": 337.36,
+        "loadshed": 0.485
       }
     },
     {
@@ -126,6 +155,10 @@
       "prediction": {
         "generation": 182.81256359257068,
         "loadshed": 0.7053478103017001
+      },
+      "label": {
+        "generation": 296.527,
+        "loadshed": 0.0
       }
     },
     {
@@ -133,6 +166,10 @@
       "prediction": {
         "generation": 190.55527173947158,
         "loadshed": 1.8891204986950092
+      },
+      "label": {
+        "generation": 315.874,
+        "loadshed": 0.16899999999999998
       }
     },
     {
@@ -140,6 +177,10 @@
       "prediction": {
         "generation": 197.528232595956,
         "loadshed": 5.581589317515161
+      },
+      "label": {
+        "generation": 345.068,
+        "loadshed": 0.294
       }
     },
     {
@@ -147,6 +188,10 @@
       "prediction": {
         "generation": 199.4818722245204,
         "loadshed": 5.599620389545318
+      },
+      "label": {
+        "generation": 358.986,
+        "loadshed": 0.9410000000000001
       }
     },
     {
@@ -154,6 +199,10 @@
       "prediction": {
         "generation": 187.46747587215884,
         "loadshed": 4.934669469426
+      },
+      "label": {
+        "generation": 365.599,
+        "loadshed": 0.479
       }
     },
     {
@@ -161,6 +210,10 @@
       "prediction": {
         "generation": 182.77281129756534,
         "loadshed": 1.2622758773521108
+      },
+      "label": {
+        "generation": 343.717,
+        "loadshed": 0.142
       }
     },
     {
@@ -168,6 +221,10 @@
       "prediction": {
         "generation": 183.31073486428798,
         "loadshed": 1.247039858618026
+      },
+      "label": {
+        "generation": 341.258,
+        "loadshed": 0.134
       }
     },
     {
@@ -175,6 +232,10 @@
       "prediction": {
         "generation": 197.58027767690263,
         "loadshed": 5.57296868126824
+      },
+      "label": {
+        "generation": 326.507,
+        "loadshed": 0.094
       }
     },
     {
@@ -182,6 +243,10 @@
       "prediction": {
         "generation": 198.0913647366773,
         "loadshed": 5.573456529292152
+      },
+      "label": {
+        "generation": 350.5,
+        "loadshed": 0.55
       }
     },
     {
@@ -189,6 +254,10 @@
       "prediction": {
         "generation": 186.955547950898,
         "loadshed": 1.094639792865225
+      },
+      "label": {
+        "generation": 362.597,
+        "loadshed": 1.332
       }
     },
     {
@@ -196,6 +265,10 @@
       "prediction": {
         "generation": 197.49005520471553,
         "loadshed": 5.5694433990816306
+      },
+      "label": {
+        "generation": 358.385,
+        "loadshed": 1.1520000000000001
       }
     },
     {
@@ -203,6 +276,10 @@
       "prediction": {
         "generation": 187.6000497204218,
         "loadshed": 1.2007457448370427
+      },
+      "label": {
+        "generation": 351.223,
+        "loadshed": 0.635
       }
     },
     {
@@ -210,6 +287,10 @@
       "prediction": {
         "generation": 186.50362897080458,
         "loadshed": 1.239439891651217
+      },
+      "label": {
+        "generation": 342.642,
+        "loadshed": 0.083
       }
     },
     {
@@ -217,6 +298,10 @@
       "prediction": {
         "generation": 182.250810000185,
         "loadshed": 0.6759300180963583
+      },
+      "label": {
+        "generation": 335.232,
+        "loadshed": 0.14200000000000002
       }
     },
     {
@@ -224,6 +309,10 @@
       "prediction": {
         "generation": 184.60706148696036,
         "loadshed": 0.7053478103017001
+      },
+      "label": {
+        "generation": 301.593,
+        "loadshed": 0.0
       }
     },
     {
@@ -231,6 +320,10 @@
       "prediction": {
         "generation": 182.7539765218551,
         "loadshed": 0.6759300180963583
+      },
+      "label": {
+        "generation": 311.814,
+        "loadshed": 0.0
       }
     },
     {
@@ -238,6 +331,10 @@
       "prediction": {
         "generation": 184.69515302665107,
         "loadshed": 0.6927753337661448
+      },
+      "label": {
+        "generation": 328.773,
+        "loadshed": 0.0
       }
     },
     {
@@ -245,6 +342,10 @@
       "prediction": {
         "generation": 197.76869995049506,
         "loadshed": 5.580721710801503
+      },
+      "label": {
+        "generation": 344.547,
+        "loadshed": 0.388
       }
     },
     {
@@ -252,6 +353,10 @@
       "prediction": {
         "generation": 197.88219680387235,
         "loadshed": 5.569554070303089
+      },
+      "label": {
+        "generation": 361.91,
+        "loadshed": 0.478
       }
     },
     {
@@ -259,6 +364,10 @@
       "prediction": {
         "generation": 197.58027767690263,
         "loadshed": 5.581589317515161
+      },
+      "label": {
+        "generation": 361.34,
+        "loadshed": 0.305
       }
     },
     {
@@ -266,13 +375,6 @@
       "prediction": {
         "generation": 184.13364984183224,
         "loadshed": 1.3303035419546245
-      }
-    },
-    {
-      "date": "2025-08-28",
-      "prediction": {
-        "generation": 186.98732995142325,
-        "loadshed": 0.881517452994987
       },
       "label": {
         "generation": 353.398,
