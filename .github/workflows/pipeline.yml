@@ -30,7 +30,7 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git add predictions.json
-          git commit -m 'Update predictions $(date +'%Y-%m-%d') [skip ci]'
+          git commit -m 'Update predictions `date +'%Y-%m-%d'` [skip ci]'
           git push
 
       - name: push changes
