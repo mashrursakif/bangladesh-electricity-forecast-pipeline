@@ -6,7 +6,7 @@ import requests
 all_dfs = []
 
 # Get data from year: 2020-2023
-start = 278
+start = 1
 end = 996
 
 for page in range(start, end + 1):
@@ -27,4 +27,4 @@ for page in range(start, end + 1):
         print(e)
 
 full_df = pd.concat(all_dfs, ignore_index=True)
-full_df.to_csv("electricity_data.csv", index=False)
+full_df.to_csv("data/electricity_data_latest.csv", index=False)
