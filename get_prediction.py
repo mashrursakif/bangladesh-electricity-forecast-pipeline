@@ -92,8 +92,9 @@ all_weather_df = (
 
 # Get Previous Day's Electricity Data
 from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
 
-yesterday_date = datetime.today() - timedelta(days=1)
+yesterday_date = datetime.now(ZoneInfo("Asia/Dhaka")) - timedelta(days=1)
 
 yesterday_date = yesterday_date.strftime("%d-%m-%Y")
 yesterday_date
