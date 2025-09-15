@@ -3,50 +3,50 @@
     {
       "date": "2025-09-15",
       "prediction": {
-        "generation": 305.07759629277325,
-        "loadshed": 0.7801592997272228
+        "generation": 287.35925233258547,
+        "loadshed": 0.8083788780609706
       }
     },
     {
       "date": "2025-09-16",
       "prediction": {
-        "generation": 302.36005387317823,
-        "loadshed": 0.5344816246149589
+        "generation": 288.6461325324111,
+        "loadshed": 0.8238180403966403
       }
     },
     {
       "date": "2025-09-17",
       "prediction": {
-        "generation": 318.6602255236857,
-        "loadshed": 0.5084554618862496
+        "generation": 285.8314517751361,
+        "loadshed": 0.7422574333105226
       }
     },
     {
       "date": "2025-09-18",
       "prediction": {
-        "generation": 304.91104693797104,
-        "loadshed": 0.4770313796551132
+        "generation": 296.6116962784833,
+        "loadshed": 1.2228100600674228
       }
     },
     {
       "date": "2025-09-19",
       "prediction": {
-        "generation": 316.6712869494439,
-        "loadshed": 0.8498086604243352
+        "generation": 310.62740044646046,
+        "loadshed": 2.2240131387093838
       }
     },
     {
       "date": "2025-09-20",
       "prediction": {
-        "generation": 311.0485702373605,
-        "loadshed": 0.6644458100487783
+        "generation": 313.384894327434,
+        "loadshed": 2.3256866038672737
       }
     },
     {
       "date": "2025-09-21",
       "prediction": {
-        "generation": 318.4540664388057,
-        "loadshed": 0.697777204475499
+        "generation": 306.46331716234477,
+        "loadshed": 1.0826030334873236
       }
     }
   ],
@@ -390,6 +390,17 @@
       "label": {
         "generation": 334.267,
         "loadshed": 1.713
+      }
+    },
+    {
+      "date": "2025-09-15",
+      "prediction": {
+        "generation": 305.07759629277325,
+        "loadshed": 0.7801592997272228
+      },
+      "label": {
+        "generation": 281.95300000000003,
+        "loadshed": 1.2800000000000002
       }
     }
   ]
