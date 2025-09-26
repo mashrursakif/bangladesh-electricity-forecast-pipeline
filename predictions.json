@@ -1,52 +1,52 @@
 {
   "forecast": [
     {
-      "date": "2025-09-25",
-      "prediction": {
-        "generation": 357.4157086226902,
-        "loadshed": 8.755974842109046
-      }
-    },
-    {
       "date": "2025-09-26",
       "prediction": {
-        "generation": 355.7080659236282,
-        "loadshed": 8.377220833068115
+        "generation": 350.10842117363575,
+        "loadshed": 5.563425169973445
       }
     },
     {
       "date": "2025-09-27",
       "prediction": {
-        "generation": 354.6743807161747,
-        "loadshed": 8.439482268614448
+        "generation": 345.93394271088806,
+        "loadshed": 6.626291884005464
       }
     },
     {
       "date": "2025-09-28",
       "prediction": {
-        "generation": 333.66882648933563,
-        "loadshed": 7.451128278844161
+        "generation": 342.07424944738636,
+        "loadshed": 8.408135669115724
       }
     },
     {
       "date": "2025-09-29",
       "prediction": {
-        "generation": 340.3477048424557,
-        "loadshed": 9.817738806648242
+        "generation": 343.4777664647025,
+        "loadshed": 9.264927407189639
       }
     },
     {
       "date": "2025-09-30",
       "prediction": {
-        "generation": 339.84773723166694,
-        "loadshed": 10.517238850377574
+        "generation": 340.1478818395709,
+        "loadshed": 10.230222537348906
       }
     },
     {
       "date": "2025-10-01",
       "prediction": {
-        "generation": 337.65924673270024,
-        "loadshed": 11.546971698246344
+        "generation": 326.645118307548,
+        "loadshed": 11.592099903275079
+      }
+    },
+    {
+      "date": "2025-10-02",
+      "prediction": {
+        "generation": 319.11232889744684,
+        "loadshed": 13.125579600534673
       }
     }
   ],
@@ -500,6 +500,17 @@
       "label": {
         "generation": 358.4429999999999,
         "loadshed": 7.617
+      }
+    },
+    {
+      "date": "2025-09-25",
+      "prediction": {
+        "generation": 357.4157086226902,
+        "loadshed": 8.755974842109046
+      },
+      "label": {
+        "generation": 343.601,
+        "loadshed": 2.777
       }
     }
   ]
