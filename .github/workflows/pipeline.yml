@@ -1,40 +1,40 @@
 name: run get_prediction.py
 
 on:
-  schedule:
-    - cron: '0 20 * * *'
-  workflow_dispatch:
+    schedule:
+        - cron: "0 20 * * *"
+    workflow_dispatch:
 
 jobs:
-  run-pipeline:
-    runs-on: ubuntu-latest
-    steps:
-      - name: checkout repo content
-        uses: actions/checkout@v3
+    run-pipeline:
+        runs-on: ubuntu-latest
+        steps:
+            - name: checkout repo content
+              uses: actions/checkout@v3
 
-      - name: setup python
-        uses: actions/setup-python@v4
-        with:
-          python-version: 3.12.4
+            - name: setup python
+              uses: actions/setup-python@v4
+              with:
+                  python-version: 3.12.4
 
-      - name: install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+            - name: install dependencies
+              run: |
+                  python -m pip install --upgrade pip
+                  pip install -r requirements.txt
 
-      - name: run script
-        run: python get_prediction.py
+            - name: run script
+              run: python get_prediction.py
 
-      - name: commit files
-        run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
-          git add predictions.json
-          git commit -m "Update predictions `date +'%Y-%m-%d'` [skip ci]"
-          git push
+            - name: commit files
+              run: |
+                  git config --local user.email "actions@github.com"
+                  git config --local user.name "GitHub Actions"
+                  git add predictions.json
+                  git commit -m "Update predictions $(TZ='Asia/Dhaka' date +'%Y-%m-%d %H:%M:%S') [skip ci]"
+                  git push
 
-      - name: push changes
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+            - name: push changes
+              uses: ad-m/github-push-action@v0.6.0
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  branch: main
