@@ -1,52 +1,52 @@
 {
   "forecast": [
     {
-      "date": "2025-12-13",
-      "prediction": {
-        "generation": 220.38744887702566,
-        "loadshed": 0.2448139899180109
-      }
-    },
-    {
       "date": "2025-12-14",
       "prediction": {
-        "generation": 225.9852769799122,
-        "loadshed": 0.5713872039475788
+        "generation": 222.0604321321721,
+        "loadshed": 0.25513844985366285
       }
     },
     {
       "date": "2025-12-15",
       "prediction": {
-        "generation": 231.7840090551486,
-        "loadshed": 0.8651731050276023
+        "generation": 225.90824984498687,
+        "loadshed": 0.5729026235127644
       }
     },
     {
       "date": "2025-12-16",
       "prediction": {
-        "generation": 233.0939673239493,
-        "loadshed": 0.7135398636727877
+        "generation": 229.07001530259876,
+        "loadshed": 0.9315702537551206
       }
     },
     {
       "date": "2025-12-17",
       "prediction": {
-        "generation": 237.10592052292432,
-        "loadshed": 0.7120851532793214
+        "generation": 233.98786353291467,
+        "loadshed": 0.9583452774015065
       }
     },
     {
       "date": "2025-12-18",
       "prediction": {
-        "generation": 236.61040157326255,
-        "loadshed": 0.6720280583032909
+        "generation": 236.30336188980746,
+        "loadshed": 0.9264440944349593
       }
     },
     {
       "date": "2025-12-19",
       "prediction": {
-        "generation": 235.66945414104984,
-        "loadshed": 0.828992374829566
+        "generation": 233.59013967638978,
+        "loadshed": 0.5847468654564387
+      }
+    },
+    {
+      "date": "2025-12-20",
+      "prediction": {
+        "generation": 236.84809514587906,
+        "loadshed": 0.4528801054679949
       }
     }
   ],
@@ -1368,6 +1368,17 @@
       },
       "label": {
         "generation": 216.09699999999998,
+        "loadshed": 0.0
+      }
+    },
+    {
+      "date": "2025-12-13",
+      "prediction": {
+        "generation": 220.38744887702566,
+        "loadshed": 0.2448139899180109
+      },
+      "label": {
+        "generation": 225.14600000000002,
         "loadshed": 0.0
       }
     }
