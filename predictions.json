@@ -1,51 +1,51 @@
 {
   "forecast": [
     {
-      "date": "2025-12-23",
-      "prediction": {
-        "generation": 231.51530457362466,
-        "loadshed": 0.19323179206763136
-      }
-    },
-    {
       "date": "2025-12-24",
       "prediction": {
-        "generation": 230.50489192416327,
-        "loadshed": 0.44228078910891866
+        "generation": 231.2622834284111,
+        "loadshed": 0.18120769232005088
       }
     },
     {
       "date": "2025-12-25",
       "prediction": {
-        "generation": 232.0096174931204,
-        "loadshed": 0.5713378309304664
+        "generation": 230.87327256884458,
+        "loadshed": 0.6012232279352934
       }
     },
     {
       "date": "2025-12-26",
       "prediction": {
-        "generation": 232.93014885558233,
-        "loadshed": 0.605850444428649
+        "generation": 231.62150365548524,
+        "loadshed": 0.5682895295188458
       }
     },
     {
       "date": "2025-12-27",
       "prediction": {
-        "generation": 233.9798848361349,
-        "loadshed": 0.6067883513886343
+        "generation": 233.45913965732115,
+        "loadshed": 0.605850444428649
       }
     },
     {
       "date": "2025-12-28",
       "prediction": {
-        "generation": 234.6679571260756,
+        "generation": 234.81214555039472,
         "loadshed": 0.6059065358887543
       }
     },
     {
       "date": "2025-12-29",
       "prediction": {
-        "generation": 234.32114860930346,
+        "generation": 234.5360949363191,
+        "loadshed": 0.6059065358887543
+      }
+    },
+    {
+      "date": "2025-12-30",
+      "prediction": {
+        "generation": 234.1104965919106,
         "loadshed": 0.6059065358887543
       }
     }
@@ -1467,6 +1467,17 @@
       },
       "label": {
         "generation": 234.069,
+        "loadshed": 0.0
+      }
+    },
+    {
+      "date": "2025-12-23",
+      "prediction": {
+        "generation": 231.51530457362466,
+        "loadshed": 0.19323179206763136
+      },
+      "label": {
+        "generation": 234.60899999999998,
         "loadshed": 0.0
       }
     }
