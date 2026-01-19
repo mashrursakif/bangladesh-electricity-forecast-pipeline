@@ -101,7 +101,7 @@ yesterday_date
 
 import io
 
-pgcb_url = f"https://erp.pgcb.gov.bd/w/generations/view_generations?page={1}"
+pgcb_url = f"https://erp.powergrid.gov.bd/w/generations/view_generations?page={1}"
 
 try:
     pgcb_res = requests.get(pgcb_url, verify=False)

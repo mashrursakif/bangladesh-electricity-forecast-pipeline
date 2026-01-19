@@ -13,7 +13,7 @@ for page in range(start, end + 1):
     print(f"Fetching page {page}")
 
     try:
-        url = f"https://erp.pgcb.gov.bd/w/generations/view_generations?page={page}"
+        url = f"https://erp.powergrid.gov.bd/w/generations/view_generations?page={page}"
         res = requests.get(url, verify=False)
         res.raise_for_status()
         html = res.text
