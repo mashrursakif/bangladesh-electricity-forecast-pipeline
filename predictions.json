@@ -1,52 +1,52 @@
 {
   "forecast": [
     {
-      "date": "2026-01-31",
-      "prediction": {
-        "generation": 239.13850104485502,
-        "loadshed": 1.1194097856077798
-      }
-    },
-    {
       "date": "2026-02-01",
       "prediction": {
-        "generation": 238.035789855687,
-        "loadshed": 1.161910318655244
+        "generation": 240.39174324353573,
+        "loadshed": 1.0341000553089565
       }
     },
     {
       "date": "2026-02-02",
       "prediction": {
-        "generation": 235.0460201086474,
-        "loadshed": 1.247619971530092
+        "generation": 235.47252709860834,
+        "loadshed": 1.2180145828024933
       }
     },
     {
       "date": "2026-02-03",
       "prediction": {
-        "generation": 237.3652633369727,
-        "loadshed": 1.0421748482276934
+        "generation": 237.7335496181007,
+        "loadshed": 1.1916696077559803
       }
     },
     {
       "date": "2026-02-04",
       "prediction": {
-        "generation": 237.38480173526696,
-        "loadshed": 1.376311213694898
+        "generation": 238.14012293755476,
+        "loadshed": 1.076377872008978
       }
     },
     {
       "date": "2026-02-05",
       "prediction": {
-        "generation": 238.17476099142343,
-        "loadshed": 1.049037794055179
+        "generation": 238.37608728072345,
+        "loadshed": 1.0829972860858759
       }
     },
     {
       "date": "2026-02-06",
       "prediction": {
-        "generation": 237.30698060803317,
-        "loadshed": 1.2340952701505958
+        "generation": 237.75475299675526,
+        "loadshed": 1.1799885367138994
+      }
+    },
+    {
+      "date": "2026-02-07",
+      "prediction": {
+        "generation": 237.18188565567735,
+        "loadshed": 1.0610065813007965
       }
     }
   ],
@@ -1798,6 +1798,17 @@
       "label": {
         "generation": 236.529,
         "loadshed": 0.796
+      }
+    },
+    {
+      "date": "2026-01-31",
+      "prediction": {
+        "generation": 239.13850104485502,
+        "loadshed": 1.1194097856077798
+      },
+      "label": {
+        "generation": 245.338,
+        "loadshed": 0.825
       }
     }
   ]
