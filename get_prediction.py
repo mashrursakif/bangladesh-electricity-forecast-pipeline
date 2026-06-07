@@ -101,7 +101,9 @@ yesterday_date
 
 import io
 
-pgcb_url = f"https://erp.powergrid.gov.bd/w/generations/view_generations?page={1}"
+pgcb_url = (
+    f"https://erp.powergrid.gov.bd/web/generations/view_demand_supply_loadshed?page=1"
+)
 
 try:
     pgcb_res = requests.get(pgcb_url, verify=False)
@@ -114,7 +116,7 @@ try:
 
     yesterday_power_df.columns = yesterday_power_df.columns.droplevel(0)
     yesterday_power_df = yesterday_power_df[
-        ["Date", "Generation(MW)", "Demand(MW)", "Loadshed"]
+        ["Date", "Demand (MW)", "Demand(MW)", "Loadshed"]
     ].copy()
 
     yesterday_power_df = yesterday_power_df[
@@ -123,7 +125,7 @@ try:
 
     yesterday_power_df.rename(
         columns={
-            "Generation(MW)": "Generation",
+            "Demand (MW)": "Generation",
             "Demand(MW)": "Demand",
         },
         inplace=True,

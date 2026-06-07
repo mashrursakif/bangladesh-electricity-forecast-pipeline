@@ -1,4 +1,4 @@
-Date,Time,Generation(MW),Demand(MW),Loadshed,Gas,Liquid Fuel,Coal,Hydro,Solar,Wind,India_Bheramara,India_Tripura,India_Adani,Nepal,Remarks
+Date,Time,Demand (MW),Demand(MW),Loadshed,Gas,Liquid Fuel,Coal,Hydro,Solar,Wind,India_Bheramara,India_Tripura,India_Adani,Nepal,Remarks
 13-09-2025,09:00:00,12905.0,12905,0,6238,648,3723,218,329.0,17.0,893,32,769.0,38.0,
 13-09-2025,08:00:00,12581.0,12581,0,6179,556,3721,218,165.0,4.0,893,38,769.0,38.0,
 13-09-2025,07:00:00,12489.0,12530,39,6190,537,3753,217,52.0,10.0,894,40,758.0,38.0,

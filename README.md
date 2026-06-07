@@ -5,7 +5,7 @@ Predict electricity generation and outage in Bangladesh using a machine learning
 ## Pipeline
 
 - Gather weather data using [open-meteo](https://open-meteo.com/) api
-- Fetch past electricity data from [PGCB](https://erp.powergrid.gov.bd/w/generations/view_generations?page=1)
+- Fetch past electricity data from [PGCB](https://erp.powergrid.gov.bd/web/generations/view_demand_supply_loadshed?page=1)
 - Use aggregated weather and past electricity data as model inputs
 - Forecast 7 days of electricity generation
 - Forecast 7 days of loadshed and outages
@@ -17,7 +17,7 @@ Model outputs are in gigawatts (GW)
 
 - LightGBM Regression Model for predicting power generation and loadshed
 - GitHub Actions to perform daily updates
-- Bangladesh electricity data from [PGCB](https://erp.powergrid.gov.bd/w/generations/view_generations?page=1)
+- Bangladesh electricity data from [PGCB](https://erp.powergrid.gov.bd/web/generations/view_demand_supply_loadshed?page=1)
 - Weather Data from [High Volume Real-World Weather Data](https://data.mendeley.com/datasets/tbrhznpwg9/1) and [open-meteo](https://open-meteo.com/) api
 
 ## Author
