@@ -114,7 +114,7 @@ try:
 
     yesterday_power_df = tables[0]
 
-    yesterday_power_df.columns = yesterday_power_df.columns.droplevel(0)
+    # yesterday_power_df.columns = yesterday_power_df.columns.droplevel(0)
     yesterday_power_df = yesterday_power_df[
         ["Date", "Demand (MW)", "Demand(MW)", "Loadshed"]
     ].copy()
