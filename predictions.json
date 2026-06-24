@@ -1,52 +1,52 @@
 {
   "forecast": [
     {
-      "date": "2026-04-23",
+      "date": "2026-06-25",
       "prediction": {
-        "generation": 324.54379661273407,
-        "loadshed": 34.583021567477054
+        "generation": 327.9225995864847,
+        "loadshed": 16.08862893117405
       }
     },
     {
-      "date": "2026-04-24",
+      "date": "2026-06-26",
       "prediction": {
-        "generation": 325.756062030262,
-        "loadshed": 22.790549745674827
+        "generation": 321.1570824172878,
+        "loadshed": 16.59504522472609
       }
     },
     {
-      "date": "2026-04-25",
+      "date": "2026-06-27",
       "prediction": {
-        "generation": 327.4959191109603,
-        "loadshed": 22.497475096637086
+        "generation": 322.4272698355206,
+        "loadshed": 22.327678953915413
       }
     },
     {
-      "date": "2026-04-26",
+      "date": "2026-06-28",
       "prediction": {
-        "generation": 324.2252454394004,
-        "loadshed": 21.851115780539377
+        "generation": 299.680732029611,
+        "loadshed": 17.809289496533903
       }
     },
     {
-      "date": "2026-04-27",
+      "date": "2026-06-29",
       "prediction": {
-        "generation": 311.28694471535636,
-        "loadshed": 16.6229461685729
+        "generation": 316.91825308989934,
+        "loadshed": 16.43561087856935
       }
     },
     {
-      "date": "2026-04-28",
+      "date": "2026-06-30",
       "prediction": {
-        "generation": 307.67437425761784,
-        "loadshed": 11.082983590728297
+        "generation": 306.85317828255205,
+        "loadshed": 12.446338772717096
       }
     },
     {
-      "date": "2026-04-29",
+      "date": "2026-07-01",
       "prediction": {
-        "generation": 308.7636915468143,
-        "loadshed": 6.39502192062725
+        "generation": 318.8534788142615,
+        "loadshed": 12.318664772787887
       }
     }
   ],
@@ -2645,6 +2645,17 @@
       "label": {
         "generation": 327.733,
         "loadshed": 54.699
+      }
+    },
+    {
+      "date": "2026-04-23",
+      "prediction": {
+        "generation": 324.54379661273407,
+        "loadshed": 34.583021567477054
+      },
+      "label": {
+        "generation": 346.683,
+        "loadshed": 32.668
       }
     }
   ]
