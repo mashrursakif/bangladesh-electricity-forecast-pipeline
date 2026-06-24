@@ -116,7 +116,7 @@ try:
 
     # yesterday_power_df.columns = yesterday_power_df.columns.droplevel(0)
     yesterday_power_df = yesterday_power_df[
-        ["Date", "Demand (MW)", "Demand(MW)", "Loadshed"]
+        ["Date", "Demand (MW)", "Supply (MW)", "Loadshed"]
     ].copy()
 
     yesterday_power_df = yesterday_power_df[
@@ -125,8 +125,8 @@ try:
 
     yesterday_power_df.rename(
         columns={
-            "Demand (MW)": "Generation",
-            "Demand(MW)": "Demand",
+            "Supply (MW)": "Generation",
+            "Demand (MW)": "Demand",
         },
         inplace=True,
     )
