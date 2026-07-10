@@ -1,52 +1,52 @@
 {
   "forecast": [
     {
-      "date": "2026-07-10",
-      "prediction": {
-        "generation": 304.37059583055475,
-        "loadshed": 3.565972587797929
-      }
-    },
-    {
       "date": "2026-07-11",
       "prediction": {
-        "generation": 313.65108678109254,
-        "loadshed": 1.7531971670585251
+        "generation": 309.0057177095233,
+        "loadshed": 1.0189672514765733
       }
     },
     {
       "date": "2026-07-12",
       "prediction": {
-        "generation": 311.6928413830341,
-        "loadshed": 0.7703881729761785
+        "generation": 323.63064258428324,
+        "loadshed": 1.1550763427393733
       }
     },
     {
       "date": "2026-07-13",
       "prediction": {
-        "generation": 319.50650923954885,
-        "loadshed": 0.505315762854327
+        "generation": 313.60096752581535,
+        "loadshed": 0.9013177446112257
       }
     },
     {
       "date": "2026-07-14",
       "prediction": {
-        "generation": 310.56436417868775,
-        "loadshed": 0.5460098327634562
+        "generation": 323.62457589588973,
+        "loadshed": 1.6484327537616281
       }
     },
     {
       "date": "2026-07-15",
       "prediction": {
-        "generation": 316.7625106646615,
-        "loadshed": 1.0792521046326147
+        "generation": 327.85504481625094,
+        "loadshed": 1.540530939860325
       }
     },
     {
       "date": "2026-07-16",
       "prediction": {
-        "generation": 308.8651566269524,
-        "loadshed": 1.128276194441213
+        "generation": 306.06233037626805,
+        "loadshed": 0.9177417402927653
+      }
+    },
+    {
+      "date": "2026-07-17",
+      "prediction": {
+        "generation": 296.624217647837,
+        "loadshed": 0.5008408405129019
       }
     }
   ],
@@ -2821,6 +2821,17 @@
       "label": {
         "generation": 324.445,
         "loadshed": 7.215
+      }
+    },
+    {
+      "date": "2026-07-10",
+      "prediction": {
+        "generation": 304.37059583055475,
+        "loadshed": 3.565972587797929
+      },
+      "label": {
+        "generation": 310.022,
+        "loadshed": 1.55
       }
     }
   ]
