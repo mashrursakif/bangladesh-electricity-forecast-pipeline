@@ -1,52 +1,52 @@
 {
   "forecast": [
     {
-      "date": "2026-08-01",
-      "prediction": {
-        "generation": 318.76759610917964,
-        "loadshed": 16.680605240583127
-      }
-    },
-    {
       "date": "2026-08-02",
       "prediction": {
-        "generation": 307.64913819371924,
-        "loadshed": 14.743483036959006
+        "generation": 305.42848540251384,
+        "loadshed": 33.959604261470865
       }
     },
     {
       "date": "2026-08-03",
       "prediction": {
-        "generation": 317.22542989607706,
-        "loadshed": 12.189893422632611
+        "generation": 317.28933135999284,
+        "loadshed": 16.144493737784224
       }
     },
     {
       "date": "2026-08-04",
       "prediction": {
-        "generation": 313.82025189427003,
-        "loadshed": 12.012978720765888
+        "generation": 308.1985993373379,
+        "loadshed": 11.430606009587786
       }
     },
     {
       "date": "2026-08-05",
       "prediction": {
-        "generation": 314.0492056884396,
-        "loadshed": 12.012978720765888
+        "generation": 316.0781719468836,
+        "loadshed": 12.670339688772358
       }
     },
     {
       "date": "2026-08-06",
       "prediction": {
-        "generation": 312.291302717394,
-        "loadshed": 12.129295933522982
+        "generation": 310.9965231893794,
+        "loadshed": 13.01853226282261
       }
     },
     {
       "date": "2026-08-07",
       "prediction": {
-        "generation": 316.8062801324731,
-        "loadshed": 12.051035856429518
+        "generation": 313.92945624203446,
+        "loadshed": 11.987225383373511
+      }
+    },
+    {
+      "date": "2026-08-08",
+      "prediction": {
+        "generation": 312.84733412354035,
+        "loadshed": 13.171663403685747
       }
     }
   ],
@@ -3063,6 +3063,17 @@
       "label": {
         "generation": 324.653,
         "loadshed": 24.159
+      }
+    },
+    {
+      "date": "2026-08-01",
+      "prediction": {
+        "generation": 318.76759610917964,
+        "loadshed": 16.680605240583127
+      },
+      "label": {
+        "generation": 329.00699999999995,
+        "loadshed": 54.292
       }
     }
   ]
